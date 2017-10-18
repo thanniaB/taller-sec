@@ -1,0 +1,56 @@
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	font-size: 24px;
+	background-color: green;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+header,
+main,
+footer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+	font-size: 72px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.agregar {
+	width: 100%;
+	padding: 15px;
+	color: #073;
+	background-color: #ccc;
+}
+
+.quehacer {
+	width: 100%;
+	padding: 15px;
+	color: white;
+	background-color: black;
+}
+
+.botonBorrar {
+	width: 25px;
+	height: 25px;
+	float: right;
+	background: none;
+	border: none;
+	color: white;
+	font-weight: bold;
+	padding: 1px;
+}
+
+footer{
+	padding: 10px;
+	font-size: 12px;
+	text-align: center;
+}
